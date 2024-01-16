@@ -1,0 +1,25 @@
+.todo_container{
+    width: 100%;
+    padding: 10px 40px;
+}
+.todo_ele{
+    display: flex;
+  margin: 10px 30px;
+  background-color: #dfe4ea;
+  padding: 10px 22px;
+  border-radius: 5px;
+  justify-content:space-between;
+}
+.todo{
+     font-weight: 500;
+     font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .todo_container{
+    padding: 5px 8px ;
+  }
+  .todo_ele{
+    width: 100%;
+      margin: 4px 1px;
+  }
+}
